@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+.weatherCard-container{
+    @apply w-96 h-2/5 lg:w-72 lg:h-2/5 m-5 flex items-center flex-col justify-around bg-zinc-200 rounded-2xl p-5 border hover:scale-105 cursor-pointer transition ease-in delay-150 border-green-800 hover:border-black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; 
+}
+
+.date{
+    @apply w-full h-1/6 text-center text-green-900 font-extrabold text-xl }
+.temperature{
+    @apply w-full h-1/6 text-3xl text-center font-extralight text-gray-900 ;
+    font-family: 'Play', sans-serif;
+}
+.occasion{
+    @apply w-full flex justify-center items-center h-1/4 text-2xl text-center 
+}
+.descr-container{
+    @apply  w-full h-1/4 flex box-border justify-around items-center  border-t-2 border-gray-300 
+}
+.descr{
+    @apply flex flex-col justify-between items-center 
+}
