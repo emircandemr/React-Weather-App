@@ -3,6 +3,7 @@
 ## Live : https://ed-react-weather-app.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/72731296/177853814-c14b8e8c-cbed-4b0d-bbd6-84871ab164da.png)
+
 ![image](https://user-images.githubusercontent.com/72731296/177853888-24304cea-e741-4932-b3d5-c4d9754ba96f.png)
 
 
