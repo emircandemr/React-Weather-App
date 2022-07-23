@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import "./home.css"
 import { Link } from "react-router-dom";
 import { useWeatherContext } from '../../context/Context';
-import { REACT_APP_URL,REACT_APP_API_KEY,REACT_APP_URL_LAT ,REACT_APP_ICON_URL} from '../../API';
+import { REACT_APP_URL,REACT_APP_API_KEY,REACT_APP_URL_LAT } from '../../API';
 
 function Home() {
     const [searchTerm ,setSearchTerm] = useState("");
